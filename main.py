@@ -76,7 +76,7 @@ if st.button("Trouver le mail"):
                 
 
         if valid_email:
-            st.success(f"L'email qui serait valide est: {valid_email}")
+            st.success(f"E-mails valides : {valid_email}")
         else:
             st.error("Il n'y a pas de mail valide trouvé")
     else:
