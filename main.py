@@ -56,7 +56,7 @@ st.title("Chasse aux mails")
 st.write("Renseignez les champs ci-dessous")
 
 # Siderbar
-st.sidebar.image("assets/FindMail.jpeg", use_column_width=True)
+st.sidebar.image("assets/FindMail.jpeg")
 st.sidebar.title("Chasse aux mails")
 
 first_name = st.text_input("Prénom de la personne :")
