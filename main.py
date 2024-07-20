@@ -68,7 +68,7 @@ if st.button("Find Email"):
         for email in possible_emails:
             if verify_email(email):
                 valid_email = email
-                break
+                
 
         if valid_email:
             st.success(f"L'email qui serait valide est: {valid_email}")
