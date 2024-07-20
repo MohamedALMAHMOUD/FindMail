@@ -69,10 +69,10 @@ if st.button("Trouver le mail"):
         st.write("Generation des Emails:")
         st.write(possible_emails)
 
-        valid_email = None
+        valid_email = []
         for email in possible_emails:
             if verify_email(email):
-                valid_email = email
+                valid_email.append(email)
                 
 
         if valid_email:
