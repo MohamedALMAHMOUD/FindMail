@@ -1,7 +1,8 @@
 # 📧 Email Finder
 
-## 🛠️ Pourquoi j'ai développé cette application
 
+## 🛠️ Pourquoi j'ai développé cette application
+(assets/FindMail.jpeg)
 J'ai développé l'application **FindMail** pour aider les utilisateurs à trouver des adresses e-mail valides appartenant à des personnes travaillant dans une entreprise spécifique. En fournissant le prénom, le nom et le domaine de l'entreprise, l'application génère plusieurs formats d'e-mails couramment utilisés et vérifie leur validité. Cela peut être particulièrement utile pour :
 
 - 🎓 **Soumettre des candidatures** : Les chercheurs d'emploi peuvent trouver les e-mails des recruteurs ou des responsables des ressources humaines pour envoyer directement leur candidature.
@@ -29,8 +30,8 @@ pip install streamlit dnspython
 1. **Clonez ce dépôt** :
 
     ```sh
-    git clone https://github.com/votre-utilisateur/email-finder.git
-    cd email-finder
+    git clone git@github.com:MohamedALMAHMOUD/FindMail.git
+    cd FindMail
     ```
 
 2. **Placez votre image dans le dossier `assets`** et assurez-vous qu'elle est nommée `photo.jpg` ou modifiez le chemin dans le script.
@@ -38,13 +39,13 @@ pip install streamlit dnspython
 3. **Exécutez l'application Streamlit** :
 
     ```sh
-    streamlit run email_finder.py
+    streamlit run main.py
     ```
 
 4. **Utilisez l'application** :
 
     - Entrez le prénom, le nom et le domaine de l'entreprise dans les champs de saisie de la barre latérale.
-    - Cliquez sur le bouton "Find Email" pour générer et vérifier les e-mails.
+    - Cliquez sur le bouton "trouver le mail" pour générer et vérifier les e-mails.
     - Les e-mails générés seront affichés, et l'application indiquera s'il y a un e-mail valide trouvé.
 
 ## 📂 Structure du projet
@@ -52,8 +53,8 @@ pip install streamlit dnspython
 ```plaintext
 email-finder/
 ├── assets/
-│   └── photo.jpg  # Placez votre image ici
-├── email_finder.py  # Script principal de l'application
+│   └── FindMail.jpeg  # Placez votre image ici
+├── main.py  # Script principal de l'application
 ├── requirements.txt  # Fichier des dépendances
 └── README.md  # Ce fichier
 ```
