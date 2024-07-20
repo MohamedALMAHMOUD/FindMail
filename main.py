@@ -51,16 +51,11 @@ def generate_emails(first_name, last_name, domain):
               for f in formats]
     return emails
 
-# Use Examples 
-first_name = input("Prénom de la personne :")
-last_name = "Nom de la personne :"
-domain = "Domaine du site internet auquel la personne appartient"
-
 st.title("Email Finder")
 st.write("Enter the details below to find the possible email addresses and verify them.")
 
-first_name = st.text_input("First Name")
-last_name = st.text_input("Last Name")
+first_name = st.text_input("Prénom de la personne :")
+last_name = st.text_input("Nom de la personne :")
 domain = st.text_input("Domain (example.com)")
 
 if st.button("Find Email"):
