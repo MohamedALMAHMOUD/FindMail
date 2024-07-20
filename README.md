@@ -1,5 +1,5 @@
 # 📧 Email Finder
-[banner image](assets/FindMail.jpeg)
+![banner image](assets/FindMail.jpeg)
 
 ## 🛠️ Pourquoi j'ai développé cette application
 J'ai développé l'application **FindMail** pour aider les utilisateurs à trouver des adresses e-mail valides appartenant à des personnes travaillant dans une entreprise spécifique. En fournissant le prénom, le nom et le domaine de l'entreprise, l'application génère plusieurs formats d'e-mails couramment utilisés et vérifie leur validité. Cela peut être particulièrement utile pour :
