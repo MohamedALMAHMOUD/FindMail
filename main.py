@@ -51,8 +51,13 @@ def generate_emails(first_name, last_name, domain):
               for f in formats]
     return emails
 
-st.title("Chasse au mails")
+# Title of page
+st.title("Chasse aux mails")
 st.write("Renseignez les champs ci-dessous")
+
+# Siderbar
+st.sidebar.image("/assets/FindMail.jpeg", use_column_width=True)
+st.sidebar.title("Chasse aux mails")
 
 first_name = st.text_input("Prénom de la personne :")
 last_name = st.text_input("Nom de la personne :")
