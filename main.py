@@ -59,9 +59,9 @@ st.write("Renseignez les champs ci-dessous")
 st.sidebar.image("assets/FindMail.jpeg")
 st.sidebar.title("Chasse aux mails")
 
-first_name = st.text_input("Prénom de la personne :")
-last_name = st.text_input("Nom de la personne :")
-domain = st.text_input("Domain (example.com)")
+first_name = st.text_input("Prénom de la personne :").lower()
+last_name = st.text_input("Nom de la personne :").lower()
+domain = st.text_input("Domain (example.com)").lower()
 
 if st.button("Trouver le mail"):
     if first_name and last_name and domain:
